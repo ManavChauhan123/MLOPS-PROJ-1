@@ -20,3 +20,10 @@ logging.critical("This is a critical message.")
 #     raise MyException(e, sys) from e
 
 # --------------------------------------------------------------------------------
+
+
+
+from src.pipline.training_pipeline import TrainPipeline
+
+pipline = TrainPipeline()
+pipline.run_pipeline()
